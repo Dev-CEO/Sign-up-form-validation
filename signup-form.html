@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signup & Signin</title>
+  <link rel="stylesheet" href="signupform.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Signup</h2>
+    <input type="text" id="name" placeholder="Full Name">
+    <p class="error" id="nameError"></p>
+
+    <input type="email" id="email" placeholder="Email">
+    <p class="error" id="emailError"></p>
+
+    <input type="password" id="password" placeholder="Password">
+    <p class="error" id="passwordError"></p>
+
+    <input type="text" id="age" placeholder="Age">
+    <p class="error" id="ageError"></p>
+
+    <input type="text" id="gender" placeholder="Gender">
+    <p class="error" id="genderError"></p>
+
+    <input type="text" id="location" placeholder="Location">
+    <p class="error" id="locationError"></p>
+
+    <input type="text" id="blood" placeholder="Blood Type">
+    <p class="error" id="bloodError"></p>
+
+    <div class="checkbox">
+      <input type="checkbox" id="agree">
+      <label for="agree">I agree to the terms</label>
+    </div>
+    <p class="error" id="agreeError"></p>
+
+    <button id="signupBtn">Sign Up</button>
+  </div>
+
+  
+  <script src="signupform.js"></script>
+</body>
+</html>
